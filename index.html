@@ -1,0 +1,33 @@
+HTML5照片墙是一项非常流行的Web设计技术。它能够帮助您在网站上创建多张图片的照片墙，使您的网站看起来更加生动活泼。下面是一个简单的HTML5照片墙的源代码示例：
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML5照片墙</title>
+<style>
+/* 设置各个照片的大小和位置 */
+.photo {
+width: 150px;
+height: 150px;
+float: left;
+margin: 10px;
+}
+/* 定义在鼠标悬停时放大照片的动画效果 */
+.photo:hover {
+transform: scale(1.2);
+transition: all 0.3s ease-in-out;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<!-- 添加多个图片文件地址，即可在网页上创建一个照片墙 -->
+<img src="https://example.com/photo1.jpg" class="photo">
+<img src="https://example.com/photo2.jpg" class="photo">
+<img src="https://example.com/photo3.jpg" class="photo">
+<img src="https://example.com/photo4.jpg" class="photo">
+<img src="https://example.com/photo5.jpg" class="photo">
+</div>
+</body>
+</html>
